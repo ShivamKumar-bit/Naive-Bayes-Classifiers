@@ -113,7 +113,7 @@ X_train_count.toarray()[:2]    # using count vectorizer  what it is identify uni
 ```
 ![p4](https://user-images.githubusercontent.com/67604006/87219868-87cde480-c37c-11ea-9826-0b4813378e82.png)
 
-For reference you can refer ![Link](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html)
+For reference you can refer [CountV](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html)
 
 ```ruby
 from sklearn.naive_bayes import MultinomialNB # multimonial classifier
@@ -135,7 +135,7 @@ clf = Pipeline([
 ])
 clf.fit(X_train, y_train)
 ```
-Using pipeline here ,for reference visit ![Link](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+Using pipeline here ,for reference visit [Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 
 ```ruby
 clf.score(X_test,y_test)
