@@ -42,7 +42,7 @@ So we need to find two things :
 - P(y) 
 - P(xi/y)
 
-We need to find P(xi | yj) for each xi in X and yj in y. All these calculations have been demonstrated in the tables below:
+We need to find P(xi/yj) for each xi in X and yj in y. All these calculations have been demonstrated in the tables below:
 
 ![Image](https://media.geeksforgeeks.org/wp-content/uploads/naive-bayes-classification.png)
 
